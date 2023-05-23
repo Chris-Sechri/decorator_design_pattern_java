@@ -8,7 +8,6 @@ public class GetUpBehaviorDecorator extends BaseDecorator {
     private final FlightProcess wrappee;
 
     public GetUpBehaviorDecorator(FlightProcess flightProcess) {
-        super();
         this.wrappee = flightProcess;
         this.wrappee.behavior = Behavior.up;
     }

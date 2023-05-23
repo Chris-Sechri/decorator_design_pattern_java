@@ -7,7 +7,6 @@ import entities.base.BaseDecorator;
 public class GetDownBehaviorDecorator extends BaseDecorator {
     private final FlightProcess wrappee;
     public GetDownBehaviorDecorator(FlightProcess flightProcess) {
-        super();
         this.wrappee = flightProcess;
         this.wrappee.behavior = Behavior.down;
     }
